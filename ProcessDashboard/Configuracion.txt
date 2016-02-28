@@ -1,0 +1,8 @@
+Directorio = C:\Users\Uriel\OneDrive\Proyectos\En Proceso\Programa Dashbaord\Ejemplos
+ArchivoExcel = C:\Users\Uriel\OneDrive\Proyectos\En Proceso\Programa Dashbaord\Formato excel dashboard 2.xlsx
+Prefijo = 0dsh
+Ignorar = Report | Student Profile
+GenerarExcel = 1
+GuardarBaseDatos = 1
+BorrarExcel = 1
+GenerarUno = 0
