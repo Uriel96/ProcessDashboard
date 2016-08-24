@@ -26,3 +26,39 @@ This software is responsible of generating an Excel File where all important dat
 This is how the program looks like:
 
 ![alt tag](https://cloud.githubusercontent.com/assets/6753760/17934268/dfc6dff0-69dc-11e6-9b05-2a0c5d7f38d7.png)
+
+TextFields:
+
+*Dashboard Directory:* The main directory where all the folders with each students information is.
+
+*Excel File:* The Excel Template File that contains the format in which information will be presented.
+
+*Prefix:* The first Words to identify the Zip File. e.g. if provided 0dsh as prefix, then it will search for a Zip File starting with 0dsh
+
+CheckBoxes:
+
+*Generate Excels:* Whether or not Excels for each student will be generated.
+
+*Save in Database:* Whether or not data will be stored in the local database.
+
+*Delete Old Excels:* Whether or not Excels contained in the student's folder will be deleted.
+
+*Generate Only One:* Whether or not information will be generated for only a particular student.
+
+*Acumulated Excel:* Whether or not another Excel will be generated with all the information of each student.
+
+Radio Buttons:
+
+*Generate Automatically:* If the last program of each student information is not known.
+
+*Generate Until:* If the last program of each student is known. This Program must be chosen in the Combobox.
+
+Progress Bar: Shows how much progress is done on generating all the information.
+
+Buttons:
+
+*Show Database:* Shows a new Window with a query to find the information needed in the database.
+
+*Excecute:* Excecutes the Process Generation.
+
+*Cancel:* Stops the process of generation.
