@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{65A32829-E175-4DBA-BC50-7AF9A5AAE156}</ProjectGuid>
+    <ProjectGuid>{E1501537-A2F2-4920-B473-028295E846FC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProcessDashboardTests</RootNamespace>
-    <AssemblyName>ProcessDashboardTests</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <RootNamespace>ProcessDashboardTests1</RootNamespace>
+    <AssemblyName>ProcessDashboardTests1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -51,6 +51,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="DatosTemporales\BitacoraDefectosTests.cs" />
+    <Compile Include="DatosTemporales\BitacoraTiempoTests.cs" />
+    <Compile Include="DatosTemporales\FaseTests.cs" />
+    <Compile Include="DatosTemporales\PROBETests.cs" />
+    <Compile Include="DatosTemporales\ResumenTests.cs" />
+    <Compile Include="DatosTemporales\SET\BaseSETTests.cs" />
+    <Compile Include="DatosTemporales\SET\NewSETTests.cs" />
+    <Compile Include="DatosTemporales\SET\ReusedSETTests.cs" />
+    <Compile Include="DatosTemporales\SET\SETTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +67,9 @@
       <Project>{8F3D6B64-4B53-4F46-BED3-DCE7D805195E}</Project>
       <Name>ProcessDashboard</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
