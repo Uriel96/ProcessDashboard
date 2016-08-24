@@ -84,4 +84,7 @@ And the Information of the Student's project will look something like this:
 ![alt tag](https://cloud.githubusercontent.com/assets/6753760/17937095/8a4ed42e-69e6-11e6-904d-9bf5250cacc1.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/6753760/17937096/8a50d49a-69e6-11e6-8bde-f69609fb0755.png)
 
+Lastly an Acumulated Excel can be also generated, it stores all the Information of every student.
+
+![alt tag](https://cloud.githubusercontent.com/assets/6753760/17937439/b299ca1e-69e7-11e6-9767-3196d903d42b.png)
 
