@@ -27,38 +27,30 @@ This is how the program looks like:
 
 ![alt tag](https://cloud.githubusercontent.com/assets/6753760/17934268/dfc6dff0-69dc-11e6-9b05-2a0c5d7f38d7.png)
 
-TextFields:
+**Dashboard Directory:** The main directory where all the folders with each students information is.
 
-*Dashboard Directory:* The main directory where all the folders with each students information is.
+**Excel File:** The Excel Template File that contains the format in which information will be presented.
 
-*Excel File:* The Excel Template File that contains the format in which information will be presented.
+**Prefix:** The first Words to identify the Zip File. e.g. if provided 0dsh as prefix, then it will search for a Zip File starting with 0dsh
 
-*Prefix:* The first Words to identify the Zip File. e.g. if provided 0dsh as prefix, then it will search for a Zip File starting with 0dsh
+**Generate Excels:** Whether or not Excels for each student will be generated.
 
-CheckBoxes:
+**Save in Database:** Whether or not data will be stored in the local database.
 
-*Generate Excels:* Whether or not Excels for each student will be generated.
+**Delete Old Excels:** Whether or not Excels contained in the student's folder will be deleted.
 
-*Save in Database:* Whether or not data will be stored in the local database.
+**Generate Only One:** Whether or not information will be generated for only a particular student.
 
-*Delete Old Excels:* Whether or not Excels contained in the student's folder will be deleted.
+**Acumulated Excel:** Whether or not another Excel will be generated with all the information of each student.
 
-*Generate Only One:* Whether or not information will be generated for only a particular student.
+**Generate Automatically:** If the last program of each student information is not known.
 
-*Acumulated Excel:* Whether or not another Excel will be generated with all the information of each student.
+**Generate Until:** If the last program of each student is known. This Program must be chosen in the Combobox.
 
-Radio Buttons:
+**Progress Bar:** Shows how much progress is done on generating all the information.
 
-*Generate Automatically:* If the last program of each student information is not known.
+**Show Database:** Shows a new Window with a query to find the information needed in the database.
 
-*Generate Until:* If the last program of each student is known. This Program must be chosen in the Combobox.
+**Excecute:** Excecutes the Process Generation.
 
-Progress Bar: Shows how much progress is done on generating all the information.
-
-Buttons:
-
-*Show Database:* Shows a new Window with a query to find the information needed in the database.
-
-*Excecute:* Excecutes the Process Generation.
-
-*Cancel:* Stops the process of generation.
+**Cancel:** Stops the process of generation.
