@@ -51,10 +51,37 @@ This is how the program looks like:
 
 **Progress Bar:** Shows how much progress is done on generating all the information.
 
-**Show Database:** Shows a new Window with a query to find the information needed in the database.
-
 **Excecute:** Excecutes the Process Generation.
 
 **Cancel:** Stops the process of generation.
+
+**Show Database:** Shows a new Window with a query to find the information needed in the database.
+
+Data Window lets you query basic information from the Database, such as student, table, until program and show previous versions:
+
+![alt tag](https://cloud.githubusercontent.com/assets/6753760/17935913/b1647a0e-69e2-11e6-8bc2-b133c66a2aae.png)
+
+**Student:** The Name of the Student. Can be chosen from the Combobox or written.
+
+**Table:** The type of Data to show (Defect Logs, Time Logs, Phases, Summaries, PROBE and SET)
+
+**Until Program:** The Programs that want to be shown. e.g. if Program 3 is chosen means Program 1, 2 and 3 will be shown.
+
+**Show previous versions:** Whether previous versions of the student will be shown (previous generated data for the student).
+
+## Excel Files
+Generated Excel Files are the must important part of this software, because it will allow data to be analysed. This analysis will not be shown because of confidentiality purposes, but the generated data will. 
+
+When the Process is finished Excels of each Student will be generated in their given directory.
+
+![alt tag](https://cloud.githubusercontent.com/assets/6753760/17936697/4294ae48-69e5-11e6-8bc7-2ca496418a1d.png)
+
+And the Information of the Student's project will look something like this:
+![alt tag](https://cloud.githubusercontent.com/assets/6753760/17937094/8a495ecc-69e6-11e6-8bd6-4b89834dc4b2.png)
+![alt tag](https://cloud.githubusercontent.com/assets/6753760/17937091/8a423354-69e6-11e6-9f01-a758189b10f8.png)
+![alt tag](https://cloud.githubusercontent.com/assets/6753760/17937093/8a48a4c8-69e6-11e6-9b31-0073c266034b.png)
+![alt tag](https://cloud.githubusercontent.com/assets/6753760/17937092/8a448230-69e6-11e6-8376-75b8cb1f2ca1.png)
+![alt tag](https://cloud.githubusercontent.com/assets/6753760/17937095/8a4ed42e-69e6-11e6-904d-9bf5250cacc1.png)
+![alt tag](https://cloud.githubusercontent.com/assets/6753760/17937096/8a50d49a-69e6-11e6-8bde-f69609fb0755.png)
 
 
